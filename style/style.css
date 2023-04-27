@@ -40,6 +40,8 @@ header img {
 }
 
 nav {
+    min-width: 300px;
+    max-width: 1500px;
     margin: 0px 0px 20px 0px;
     display: block;
     background-color: rgb(1, 25, 90);
@@ -117,6 +119,7 @@ main .hqs {
 }
 
 main li {
+    
     box-shadow: 10px 0px 10px rgba(0, 0, 0, 0.712);
     padding: 256px 1px 0px 0px;
     background-color: #000000;
@@ -132,12 +135,15 @@ main li:hover {
 }
 
 div.join {
+    
     margin: 10px 0px 0px 0px;
     background-image: linear-gradient(to right, #8138ca,#2f0d50, #833ec4);
     font-family: var(--font-titulo);
 }
 
 div.join > h1 {
+    min-width: 300px;
+    max-width: 1500px;
     padding: 10px 0px 10px 0px;
     color: white;
     margin: auto;
@@ -168,6 +174,8 @@ div.join > a:hover {
 }
 
 footer {
+    min-width: 300px;
+    max-width: 1500px;
     margin: 0px 0px 0px 0px;
     padding: 20px;
     display: block;
