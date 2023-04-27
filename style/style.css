@@ -1,0 +1,193 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Russo+One&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+:root {
+    --cor1:#8692F9 ;
+    --cor2:#414678;
+    --cor3:#2F3EC4;
+    --cor4:#3B4EF7;
+    --cor5:#1D2678;
+
+    --font-titulo: 'Russo One', sans-serif;;
+    --font-subtitulo:'Oswald', sans-serif;;
+    --font-titulo2: 'Bebas Neue', cursive; 
+}
+
+* {
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+}
+
+body {
+    background-color: rgb(255, 255, 255);
+}
+
+header {
+        background-color: rgb(1, 25, 90);
+        display: block;
+        text-align: center;
+        min-height: 20px;
+        padding-top: 2px;
+    }
+
+header img {
+    padding: 9px 20px 0px 0px;
+}
+
+nav {
+    margin: 0px 0px 20px 0px;
+    display: block;
+    background-color: rgb(1, 25, 90);
+    box-shadow: 0px 7px 9px rgba(0, 0, 0, 0.432);
+    text-align: center;
+    }
+
+
+nav > a {
+  
+    padding: 9px 10px 5px 10px;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-family: var(--font-subtitulo);
+    font-weight: bold;
+    font-size: 15px;
+    border-radius: 10px;
+    transition-duration: 0.3s;
+}
+
+nav > a:hover {
+    background-color: rgb(0, 0, 0);
+    color: rgb(12, 124, 189);
+}
+
+main {
+    background-color: rgb(255, 255, 255);
+    padding: 20px;
+    text-align: center;
+    margin: auto;
+    min-width: 300px;
+    max-width: 1500px;
+    margin-bottom: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.11);
+   
+}
+
+main a { 
+    font-size: 14px;
+    padding: 15px;
+    text-align: center;
+    margin: 0px 10px;
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+    width: 60%;
+    border-radius: 10px 10px 10px 10px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-decoration: none;
+    font-weight: bold;
+    transition-duration: 0.3s;
+    box-shadow: 2px 0px 20px rgba(0, 0, 0, 0.582);
+}
+
+main a:hover {
+    background-color: #20286d;
+    color: rgb(255, 255, 255);
+    
+}
+
+div.HQ {
+    font-family: var(--font-subtitulo);
+    font-size: 19px;
+    text-align: right;
+    margin: 16px 100px 0px 0px;
+}
+
+main .dcui {
+    text-align: right;
+    margin: 40px 100px 20px 100px;
+}
+
+main .hqs {
+    margin: 30px 0px 50px 0px;
+    width: 100%;
+}
+
+main li {
+    box-shadow: 10px 0px 10px rgba(0, 0, 0, 0.712);
+    padding: 256px 1px 0px 0px;
+    background-color: #000000;
+    margin: 0px 90px 0px 0px;
+    display: inline;
+    transition-duration: 0.3s;
+
+}
+main li:hover {
+
+    background-color: #000000;
+    box-shadow: 20px 0px 15px rgba(0, 0, 0, 0.644);
+}
+
+div.join {
+    margin: 10px 0px 0px 0px;
+    background-image: linear-gradient(to right, #8138ca,#2f0d50, #833ec4);
+    font-family: var(--font-titulo);
+}
+
+div.join > h1 {
+    padding: 10px 0px 10px 0px;
+    color: white;
+    margin: auto;
+    font-size: 25px;
+    font-family: var(--font-titulo);
+}
+
+div.join > p {
+    padding: 10px 0px 10px 0px;
+    color: rgb(255, 255, 255);
+    font-weight: lighter;
+    text-align: center;
+    font-family: var(--font-subtitulo);
+    font-size: 15px;
+}
+
+div.join > a {
+    text-align: left;
+    color: #6a0997;
+    background-color: #ffffff;
+    transition-duration: 0.3s;
+}
+
+div.join > a:hover {
+    background-color: #7d31c9;
+    color: #ffffff;
+
+}
+
+footer {
+    margin: 0px 0px 0px 0px;
+    padding: 20px;
+    display: block;
+    background-color: black;
+    text-align: center;
+}
+
+footer > img {
+    width: 50px;
+    padding: 10px;
+}
+footer > a {
+    color: white;
+    margin: 0px 17px 0px 0px;
+    font-family: var(--font-subtitulo);
+    font-size: 15px;
+    text-decoration: none;
+    transition-duration: 0.3s;
+}
+
+footer > a:hover {
+    color: #1f5ed4;
+} 
