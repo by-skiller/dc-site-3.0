@@ -29,9 +29,7 @@ body {
 
 header {
         background-color: rgb(1, 25, 90);
-        display: block;
         text-align: center;
-        min-height: 20px;
         padding-top: 2px;
     }
 
@@ -175,7 +173,6 @@ div.join > a:hover {
 footer {
     margin: 0px 0px 0px 0px;
     padding: 20px;
-    display: block;
     background-color: black;
     text-align: center;
 }
