@@ -104,12 +104,12 @@ div.HQ {
     font-family: var(--font-subtitulo);
     font-size: 19px;
     text-align: right;
-    margin: 16px 100px 0px 0px;
+    margin: 0px 100px 23px 0px;
 }
 
 main .dcui {
     text-align: right;
-    margin: 30px 90px;
+    margin: 0px 90px;
 }
 
 main .hqs {
