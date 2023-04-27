@@ -99,6 +99,7 @@ main a:hover {
     
 }
 
+
 div.HQ {
     font-family: var(--font-subtitulo);
     font-size: 19px;
@@ -108,7 +109,7 @@ div.HQ {
 
 main .dcui {
     text-align: right;
-    margin: 40px 100px 20px 100px;
+    margin: 30px 90px;
 }
 
 main .hqs {
@@ -183,6 +184,7 @@ footer > img {
     width: 50px;
     padding: 10px;
 }
+
 footer > a {
     color: white;
     margin: 0px 17px 0px 0px;
